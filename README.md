@@ -4,10 +4,7 @@ RippleFX is a lightweight, hardware-agnostic C++ engine for creating dynamic, re
 
 The primary demo effect is a highly customizable, propagation-based "ripple" that is generated in response to user input.
 
-*(Here you should add a GIF or short video of the effect running on your keyboard. It's the best way to showcase your work!)*
-`![Demo GIF](docs/demo.gif)`
-
----
+<img src="assets/RippleEffectLogo.jpeg" alt="RippleFX Logo" width="200"/>
 
 ## 🚀 Core Architectural Features
 
