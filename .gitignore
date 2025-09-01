@@ -1,0 +1,44 @@
+# This is a comprehensive gitignore for a C++ CMake project using Visual Studio.
+
+# --- Visual Studio specific ---
+# User-specific files (do not share)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Hidden Visual Studio directory
+.vs/
+
+# --- CMake specific ---
+# The build output directory
+/build/
+/out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeLists.txt.user
+compile_commands.json
+
+# --- General Build Artifacts ---
+# Executables, libraries, and object files
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.map
+
+# --- Common IDE/Editor files ---
+.idea/
+*.vscode/
+
+# --- OS generated files ---
+# Windows thumbnails
+Thumbs.db
+# macOS specific
+.DS_Store
