@@ -10,6 +10,8 @@ The primary demo effect is a highly customizable, propagation-based "ripple" tha
 
 This engine was built from the ground up with professional software architecture principles in mind, making it powerful, flexible, and easy to extend.
 
+**[You can view the detailed project structure here.](docs/STRUCTURE.md)**
+
 ### Hardware Abstraction Layer (HAL)
 The core logic of the engine is **100% hardware-independent**. It is built as a portable `Core` library that communicates with hardware through a clean interface (`IHardware`). This design allows the engine to run on virtually any keyboard or custom microcontroller with a simple "adapter" class.
 
