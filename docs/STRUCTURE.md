@@ -55,5 +55,3 @@ RippleEffectEngine/
     │   └── LogitechLed.cpp
     │
     └── main.cpp
-
-    ```
